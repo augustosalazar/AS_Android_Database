@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidDataBaseTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="StringTitulo">Base de Datos Estilo Android</string>
+    <string name="textoTituloEntrada">Entrada</string>
+    <string name="textoTituloField1">Field1</string>
+    <string name="textoValorField1">valorField1</string>
+    <string name="textoTituloField2">Field2</string>
+    <string name="textoValorField2">valorField2</string>
+    <string name="textoBotonEntrada">Remove</string>
+    <string name="textoBotonFrag2">Agregar/Editar Entrada</string>
+
+</resources>
