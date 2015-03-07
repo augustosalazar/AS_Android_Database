@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity implements
 		setContentView(R.layout.activity_main);
 
 		mFragment1 = new Fragment1();
-		mFragment2 = new Fragment2();
+
 
 		if (savedInstanceState == null) {
 			getSupportFragmentManager().beginTransaction()
@@ -53,13 +53,32 @@ public class MainActivity extends ActionBarActivity implements
 
 	@Override
 	public void onFragment1AgregarClick() {
+
+        if (mFragment2 != null){
+            mFragment2 = null;
+        }
+
+        mFragment2 = new Fragment2();
+
+        Bundle bundle = new Bundle();
+        bundle.putInt("indice",-1);
+        mFragment2.setArguments(bundle);
 		getSupportFragmentManager().beginTransaction()
 				.replace(R.id.container, mFragment2)
 				.addToBackStack("mFragment2").commit();
+        getSupportFragmentManager().beginTransaction().remove(mFragment1);
+
 	}
 
     @Override
     public void onFragment1EditClick(DataEntry dataEntry) {
+
+        if (mFragment2 != null){
+            mFragment2 = null;
+        }
+
+        mFragment2 = new Fragment2();
+
         Bundle bundle = new Bundle();
         bundle.putInt("indice",dataEntry.get_id());
         mFragment2.setArguments(bundle);
@@ -70,15 +89,18 @@ public class MainActivity extends ActionBarActivity implements
 
     @Override
 	public void onFragment2AgregarEntryClick() {
-		getSupportFragmentManager().beginTransaction()
-				.replace(R.id.container, mFragment1).commit();
+
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.container, mFragment1).commit();
+
 
         InputMethodManager inputManager = (InputMethodManager)
                 getSystemService(Context.INPUT_METHOD_SERVICE);
 
         inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
                 InputMethodManager.HIDE_NOT_ALWAYS);
-	}
+
+  }
 
     public void CLICk(View view) {
 

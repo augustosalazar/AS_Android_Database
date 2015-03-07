@@ -82,7 +82,13 @@ public class Fragment2 extends Fragment {
         super.onAttach(activity);
 	}
 
-	protected void saveData() {
+    @Override
+    public void onPause() {
+        db = null;
+        super.onPause();
+    }
+
+    protected void saveData() {
 
 
 		if (mEditTextField1.getText().toString().equals("")
