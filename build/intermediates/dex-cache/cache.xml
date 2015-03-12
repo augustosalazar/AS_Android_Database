@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Augusto\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jar="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
-        <dex dex="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-bb9c076343d66bba6006b1a096c20b49b0b06443.jar" />
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-6f95958d910a041b1af2fcd2e70c161073abde3a.jar" />
     </item>
     <item
-        jar="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jar="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
-        <dex dex="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-eca4c7937cd71b78ed624c7867b5940515f10e66.jar" />
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\classes-4eea9b1d35732cb22293abdd2ff1c5cc607adf8d.jar" />
     </item>
     <item
-        jar="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jar="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
-        <dex dex="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\classes-9c39582a507e3ab45b81b83ecf48af04f635cfc1.jar" />
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\classes-ffa0790beb02a1ea3b0362dd4a200e717d15f54a.jar" />
     </item>
     <item
-        jar="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jar="C:\Users\Augusto\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\classes-87c5ffe99dd15febac7cd631f6a301ed3ee0bc0a.jar" />
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f5ff0bdec5047e407067026e6ec709447a34348c.jar" />
     </item>
 
 </items>

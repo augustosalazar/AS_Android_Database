@@ -1,5 +1,5 @@
 C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\classes\debug
-C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-bb9c076343d66bba6006b1a096c20b49b0b06443.jar
-C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-eca4c7937cd71b78ed624c7867b5940515f10e66.jar
-C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\classes-9c39582a507e3ab45b81b83ecf48af04f635cfc1.jar
-C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\classes-87c5ffe99dd15febac7cd631f6a301ed3ee0bc0a.jar
+C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f5ff0bdec5047e407067026e6ec709447a34348c.jar
+C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-6f95958d910a041b1af2fcd2e70c161073abde3a.jar
+C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\classes-4eea9b1d35732cb22293abdd2ff1c5cc607adf8d.jar
+C:\Desarrollo\Android studioProjects\AndroidDatabaseTest-master\app\build\intermediates\pre-dexed\debug\classes-ffa0790beb02a1ea3b0362dd4a200e717d15f54a.jar
