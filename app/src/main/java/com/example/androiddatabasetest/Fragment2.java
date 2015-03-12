@@ -35,13 +35,9 @@ public class Fragment2 extends Fragment {
 
         Log.d(Fragment2.class.getSimpleName(),"indice "+indice);
 
-
-
         mBoton = (Button) rootView.findViewById(R.id.buttonAceptar);
 		mEditTextField1 = (EditText) rootView.findViewById(R.id.editText1);
 		mEditTextField2 = (EditText) rootView.findViewById(R.id.editText2);
-
-
 
 		mBoton.setOnClickListener(new OnClickListener() {
 
@@ -59,7 +55,6 @@ public class Fragment2 extends Fragment {
 		super.onActivityCreated(savedInstanceState);
 
 		db = new DatabaseHandler(getActivity().getApplicationContext());
-        db.getWritableDatabase();
         if (indice != -1){
             entry = db.geDataEntry(indice);
             mEditTextField1.setText(String.valueOf(entry.get_field1()));
@@ -77,14 +72,17 @@ public class Fragment2 extends Fragment {
 					+ " must implement CarDataFragment.Callback");
 		}
 
-
-
         super.onAttach(activity);
 	}
 
     @Override
     public void onPause() {
         db = null;
+
+        mBoton = null;
+        mEditTextField1 = null;
+        mEditTextField2 = null;
+
         super.onPause();
     }
 

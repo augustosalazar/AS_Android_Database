@@ -12,5 +12,6 @@
     <string name="textoValorField2">valorField2</string>
     <string name="textoBotonEntrada">Remove</string>
     <string name="textoBotonFrag2">Agregar/Editar Entrada</string>
+    <string name="textoTituloField3">Field 3</string>
 
 </resources>

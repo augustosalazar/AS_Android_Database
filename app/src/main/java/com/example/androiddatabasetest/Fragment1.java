@@ -100,8 +100,6 @@ public class Fragment1 extends Fragment {
     public void delete(DataEntry entry) {
         db.deleteEntry(entry);
         loadData();
-        // listPhonebook.remove(view.getId());
-
     }
 
     public interface Callback {

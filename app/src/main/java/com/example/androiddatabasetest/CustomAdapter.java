@@ -21,6 +21,8 @@ public class CustomAdapter extends BaseAdapter implements View.OnClickListener {
         this.listEntries = listEntries;
     }
 
+
+
     @Override
     public int getCount() {
         return listEntries.size();

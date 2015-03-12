@@ -102,7 +102,7 @@ public class MainActivity extends ActionBarActivity implements
 
   }
 
-    public void CLICk(View view) {
+    public void onClickBotonBorrarFila(View view) {
 
         DataEntry entry = (DataEntry) view.getTag();
         Log.d(MainActivity.class.getSimpleName(),"CLICK"+entry.get_field1());
