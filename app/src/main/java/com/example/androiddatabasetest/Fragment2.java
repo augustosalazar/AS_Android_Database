@@ -14,6 +14,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.androiddatabasetest.DAO.DataEntryDAO;
+import com.example.androiddatabasetest.model.DataEntry;
+
 public class Fragment2 extends Fragment {
 
 	private static final String TAG = Fragment2.class.getSimpleName();
@@ -21,7 +24,7 @@ public class Fragment2 extends Fragment {
 	private Button mBoton;
 	private EditText mEditTextField1;
 	private EditText mEditTextField2;
-	private DatabaseHandler db;
+	private DataEntryDAO mDataEntryDAO;
     private DataEntry entry;
     private int  indice;
 
@@ -54,9 +57,9 @@ public class Fragment2 extends Fragment {
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
 
-		db = new DatabaseHandler(getActivity().getApplicationContext());
+		mDataEntryDAO = new DataEntryDAO(getActivity().getApplicationContext());
         if (indice != -1){
-            entry = db.geDataEntry(indice);
+            entry = mDataEntryDAO.geDataEntry(indice);
             mEditTextField1.setText(String.valueOf(entry.get_field1()));
             mEditTextField2.setText(String.valueOf(entry.get_field2()));
         }
@@ -77,7 +80,7 @@ public class Fragment2 extends Fragment {
 
     @Override
     public void onPause() {
-        db = null;
+        mDataEntryDAO = null;
 
         mBoton = null;
         mEditTextField1 = null;
@@ -113,7 +116,7 @@ public class Fragment2 extends Fragment {
                     .getText().toString()));
             entry.set_field2(Integer.valueOf(mEditTextField2
                     .getText().toString()));
-            db.updateEntry(entry);
+            mDataEntryDAO.updateEntry(entry);
 
             mEditTextField1.setText("");
             mEditTextField2.setText("");
@@ -126,7 +129,7 @@ public class Fragment2 extends Fragment {
                     .getText().toString()), Integer.valueOf(mEditTextField2
                     .getText().toString()));
 
-            db.addDataEntry(entry);
+            mDataEntryDAO.addDataEntry(entry);
 
             Log.d(TAG, "Adding new entry");
 
