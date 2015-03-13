@@ -57,8 +57,6 @@ public class DataEntryDAO {
         // Inserting Row
         index = mDatabase.insert(DatabaseHandler.TABLE, null, values);
 
-        mDatabase.close(); // Closing database connection
-
         Log.d(TAG, "addDataEntry returned index " + index);
 
         return index;
@@ -158,7 +156,6 @@ public class DataEntryDAO {
                 DatabaseHandler.TABLE, DatabaseHandler.KEY_ID + " = ?",
                 new String[] { String.valueOf(entry.get_id()) }
         );
-        mDatabase.close();
     }
 
 

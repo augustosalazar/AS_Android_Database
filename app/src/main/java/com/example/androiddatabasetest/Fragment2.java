@@ -144,4 +144,9 @@ public class Fragment2 extends Fragment {
 		public void onFragment2AgregarEntryClick();
 	}
 
+    @Override
+    public void onDestroy() {
+        mDataEntryDAO.close();
+        super.onDestroy();
+    }
 }

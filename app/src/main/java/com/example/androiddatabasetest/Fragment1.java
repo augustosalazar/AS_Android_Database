@@ -70,10 +70,15 @@ public class Fragment1 extends Fragment {
 	public void onResume() {
 		super.onResume();
 		loadData();
-		
 	}
-	
-	private void loadData(){
+
+    @Override
+    public void onDestroy() {
+        mDataEntryDAO.close();
+        super.onDestroy();
+    }
+
+    private void loadData(){
 		// Reading all entries
 		Log.d(TAG, "Reading all contacts..");
 
