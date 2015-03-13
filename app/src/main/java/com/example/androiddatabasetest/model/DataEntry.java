@@ -1,4 +1,4 @@
-package com.example.androiddatabasetest;
+package com.example.androiddatabasetest.model;
 
 public class DataEntry {
 

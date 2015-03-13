@@ -2,18 +2,14 @@ package com.example.androiddatabasetest;
 
 import android.content.Context;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.Choreographer.FrameCallback;
-import android.os.Build;
 import android.view.inputmethod.InputMethodManager;
+
+import com.example.androiddatabasetest.model.DataEntry;
 
 public class MainActivity extends ActionBarActivity implements
 		Fragment1.Callback, Fragment2.Callback {
